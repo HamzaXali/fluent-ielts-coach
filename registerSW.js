@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/fluent-ielts-coach/sw.js', { scope: '/fluent-ielts-coach/' })})}
